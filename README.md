@@ -66,7 +66,7 @@ CREATE TABLE Films
       	  language character varying(100),
 	  runtime character varying(100)
 	);
-
+ 
 CREATE EXTENSION postgis;
 ALTER TABLE Mumbai_Theaters
 	ADD COLUMN geom geometry(POINT,4326)
